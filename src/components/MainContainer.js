@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import Header from './Header';
-import Navigation from './Navigation';
-import Project from './Project';
+import AboutMe from './AboutMe';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
+import Resume from './Resume';
+
 
 function MainContainer() {
     return (
         <div>
-            <Navigation />
             <Header />
         </div>
     );

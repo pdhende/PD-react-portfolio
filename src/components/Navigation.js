@@ -13,7 +13,7 @@ function Navigation() {
                     <a className="nav-link" href="#about-me">About Me </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#Work">Work</a>
+                    <a className="nav-link" href="#Work">Portfolio</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#contact-me">Contact</a>
