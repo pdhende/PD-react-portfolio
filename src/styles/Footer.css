@@ -1,0 +1,9 @@
+.icons {
+    width: 3rem;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
