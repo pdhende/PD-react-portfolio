@@ -1,0 +1,14 @@
+.portfolio-img {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-image: url("../assets/header-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    color: white;
+    text-align:center;
+    padding-top: 1.5rem;
+}
