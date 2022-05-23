@@ -1,9 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import AboutMe from './AboutMe';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
 import Footer from './Footer';
 import '../styles/MainPage.css'
 

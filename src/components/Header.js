@@ -4,6 +4,7 @@ import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Navigation from './Navigation';
+import Resume from './Navigation';
 
 function Header() {
 
@@ -21,6 +22,11 @@ function Header() {
         if (pageName === 'ContactMe') {
             return <Contact />
         }
+
+        if (pageName === 'Resume') {
+            return <Resume />
+        }
+        
     };
 
     const changePageName = (page) => setPageName(page);

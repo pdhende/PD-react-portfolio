@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Navigation.css'
 
 function Navigation({ pageName, changePageName }) {
@@ -19,7 +19,7 @@ function Navigation({ pageName, changePageName }) {
                     <a className={ pageName === 'ContactMe' ? 'nav-link active' : 'nav-link'} href="#contact-me" onClick= {() => changePageName('ContactMe')}>Contact</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="Priyanka_Dhende.pdf"  target="_blank">Resume</a>
+                    <a className={ pageName === 'Resume' ? 'nav-link active' : 'nav-link'} href="#resume" onClick= {() => changePageName('Resume')}>Resume</a>
                 </li>
                 </ul>
             </div>
