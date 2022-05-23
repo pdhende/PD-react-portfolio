@@ -7,9 +7,13 @@
     background-position: center;
 }
 
-.container {
+.custom-row {
     color: white;
     text-align:center;
     padding-top: 1.5rem;
     background-color:#FBB80F;
+    position: relative;
+    transform: translate(15px, 35px);
+    background-color: #FBB80F;
+    margin: 0px 100px;
 }

@@ -5,11 +5,12 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
 import Footer from './Footer';
+import '../styles/MainPage.css'
 
 
 function MainContainer() {
     return (
-        <div>
+        <div className='main-container' style={{ height: "100vh" }}>
             <Header />
             <Footer />
         </div>
