@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../styles/Header.css';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
+import Contact from './Contact';
 import Navigation from './Navigation';
 
 function Header() {
@@ -15,6 +16,10 @@ function Header() {
 
         if (pageName === 'Portfolio') {
             return <Portfolio />
+        }
+
+        if (pageName === 'ContactMe') {
+            return <Contact />
         }
     };
 

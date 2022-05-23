@@ -16,7 +16,7 @@ function Navigation({ pageName, changePageName }) {
                     <a className={ pageName === 'Portfolio' ? 'nav-link active' : 'nav-link'} href="#portfolio" onClick= {() => changePageName('Portfolio')}>Portfolio</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#contact-me">Contact</a>
+                    <a className={ pageName === 'ContactMe' ? 'nav-link active' : 'nav-link'} href="#contact-me" onClick= {() => changePageName('ContactMe')}>Contact</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="Priyanka_Dhende.pdf"  target="_blank">Resume</a>

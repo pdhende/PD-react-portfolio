@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
